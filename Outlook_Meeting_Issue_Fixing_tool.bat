@@ -18,7 +18,7 @@ cls
 	:Title
 color 0E
 ECHO  ************************************************************																								   
-ECHO    "Either there is no default mail client or current mail client cannot fulfill the messaging request. 
+ECHO    "Either there is no default mail client or current mail client cannot fulfill the messaging request.
 ECHO	   Please run Microsoft Outlook and set it as the default mail client."
 ECHO	   This script will fix meeting issue in your MS Outlook         
 
