@@ -61,7 +61,7 @@ color F1
 msiexec  /i subinacl.msi /qn
 echo "Intalled press any key to proceed permission"
 echo off
-"C:\Program Files (x86)\Windows Resource Kits\Tools\SUBINACL.exe" /keyreg "HKEY_CLASSES_ROOT\Installer\Components\F1291BD604B860441AB89E60BDEE0F9C" /setowner=administrators /grant=everyone=f
+"C:\Program Files\Windows Resource Kits\Tools\SUBINACL.exe" /keyreg "HKEY_CLASSES_ROOT\Installer\Components\F1291BD604B860441AB89E60BDEE0F9C" /setowner=administrators /grant=everyone=f
 goto :ForExit
 
 
@@ -72,7 +72,7 @@ color F1
 msiexec  /i subinacl.msi /qn
 echo "Intalled press any key to proceed permission"
 echo off
-"C:\Program Files\Windows Resource Kits\Tools\SUBINACL.exe" /keyreg "HKEY_CLASSES_ROOT\Installer\Components\F1291BD604B860441AB89E60BDEE0F9C" /setowner=administrators /grant=everyone=f
+"C:\Program Files (x86)\Windows Resource Kits\Tools\SUBINACL.exe" /keyreg "HKEY_CLASSES_ROOT\Installer\Components\F1291BD604B860441AB89E60BDEE0F9C" /setowner=administrators /grant=everyone=f
 goto :ForExit
 
 
