@@ -81,6 +81,11 @@ goto :ForExit
 cd c:\
 rmdir  "c:\acl" /Q /S
 echo.
-echo done press any key to exit
+echo.
+echo.
+echo 	Task Completed 
+echo.
+echo.
+echo.
 @pause 
 exit
